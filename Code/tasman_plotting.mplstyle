@@ -1,0 +1,47 @@
+
+# Plotting Style
+
+#figure.autolayout : True
+#figure.figsize: 7, 5
+#needed to display the plot on android phones
+figure.facecolor: white
+#this is to allow the figure to scale when the figure is shared copying it and has to be to added to presentations
+figure.dpi: 150
+
+font.size: 16
+
+### Axes
+axes.facecolor: whitesmoke
+axes.titlesize: 20
+axes.labelsize: 16
+axes.grid: True
+axes.labelpad: 5
+
+### Background grid
+grid.alpha: 0.4
+grid.linewidth: 0.9
+grid.linestyle: :
+grid.color: slategrey
+
+# tasman colors - cycler written by Barney
+axes.prop_cycle: cycler("color", ['4e79a7', 'f28e2b','e15759','76b7b2', '59a14f','edc948','b07aa1','ff9da7','9c755f','bab0ac'])
+
+xtick.labelsize: 12
+ytick.labelsize: 12
+
+legend.loc: best
+
+### Legend
+legend.fontsize: small
+legend.title_fontsize: small
+
+### Fonts
+mathtext.fontset : cm
+font.family: serif
+font.serif: Roboto Mono Regular
+
+### Figure save settings
+#this is to allow the figure to scale when added to presentations
+savefig.dpi: 150
+savefig.facecolor: white
+savefig.bbox: tight
